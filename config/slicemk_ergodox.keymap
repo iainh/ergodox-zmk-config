@@ -18,26 +18,26 @@
                 layer_0 {
                         bindings = <
     &bootloader
-    &kp EQUAL    &kp NUM_1   &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5 &kp PRSC    &none    &kp NUM_6     &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0      &kp MINUS
-    &kp DEL     &kp Q       &kp W     &kp F     &kp P     &kp B     &kp CLCK    &none    &kp J         &kp L     &kp U     &kp Y     &kp SEMI       &kp BSLH
-    &kp BSLH    &kp A       &kp R     &kp S     &kp T     &kp G                          &kp M         &kp N     &kp E     &kp I     &kp O          &mt LGUI APOS
-    &kp LSFT    &mt LCTRL Z &kp X     &kp C     &kp D     &kp V     &none       &none    &kp K         &kp H     &kp CMMA  &kp DOT   &mt RCTRL FSLH &kp RSFT
-    &lt 1 GRAVE &kp LGUI    &kp LALT  &kp LEFT  &kp RIGHT                                              &kp UP    &kp DOWN  &kp RALT  &kp RGUI       &none
-                                                          &kp LALT  &kp LGUI    &kp END  &mt LCTRL ESC
-                                                                    &kp HOME    &kp PGDN
+    &kp EQUAL   &kp NUM_1   &kp NUM_2      &kp NUM_3 &kp NUM_4 &kp NUM_5 &kp PRSC    &none    &kp NUM_6     &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0      &kp MINUS
+    &kp DEL     &kp Q       &kp W          &kp F     &kp P     &kp B     &tog 1      &tog 1   &kp J         &kp L     &kp U     &kp Y     &kp SEMI       &kp BSLH
+    &kp BSLH    &kp A       &kp R          &kp S     &kp T     &kp G                          &kp M         &kp N     &kp E     &kp I     &kp O          &mt LGUI APOS
+    &kp LSFT    &mt LCTRL Z &kp X          &kp C     &kp D     &kp V     &none       &none    &kp K         &kp H     &kp CMMA  &kp DOT   &mt RCTRL FSLH &kp RSFT
+    &lt 1 GRAVE &kp LGUI    &mt LALT LSHFT &kp LEFT  &kp RIGHT                                              &kp UP    &kp DOWN  &kp RALT  &kp RGUI       &mo 1
+                                                          &mt LALT K_APP  &kp LGUI    &kp LALT  &mt LCTRL ESC
+                                                                    &kp HOME    &kp PG_UP
                                                 &kp SPC   &kp BSPC                       &kp TAB   &kp RET
-                                                                    &kp END    &mo 1
+                                                                    &kp END    &kp PG_DN
                         >;
                 };
 
                 layer_1 {
                         bindings = <
     &bootloader
-    &kp ESC    &kp F1       &kp F2     &kp F3     &kp F4     &kp F5     &none      &none      &kp F6     &kp F7     &kp F8     &kp F9       &kp F10      &kp F11
-    &none      &kp EXCL     &kp AT     &kp LBRC   &kp RBRC   &kp PIPE   &none      &none      &kp UP     &kp NUM_7  &kp NUM_8  &kp NUM_9    &kp STAR     &kp F12
-    &none      &kp HASH     &kp DLLR   &kp LPAR   &kp RPAR   &kp GRAVE                        &kp DOWN   &kp NUM_4  &kp NUM_5  &kp NUM_6    &kp PLUS     &none
-    &none      &kp PRCNT    &kp CARET  &kp LBKT   &kp RBKT   &kp TILDE  &none      &none      &kp AMPS   &kp NUM_1  &kp NUM_2  &kp NUM_3    &kp BSLH     &none
-    &none      &kp KP_EQUAL &none      &none      &none                                                  &none      &kp DOT    &kp NUM_0    &kp KP_EQUAL &none
+    &kp ESC    &kp F1       &kp F2     &kp F3     &kp F4     &kp F5     &trans      &trans      &kp F6     &kp F7     &kp F8     &kp F9       &kp F10      &kp F11
+    &trans      &kp EXCL     &kp AT     &kp LBRC   &kp RBRC   &kp PIPE   &trans      &trans      &kp UP     &kp NUM_7  &kp NUM_8  &kp NUM_9    &kp STAR     &kp F12
+    &trans      &kp HASH     &kp DLLR   &kp LPAR   &kp RPAR   &kp GRAVE                        &kp DOWN   &kp NUM_4  &kp NUM_5  &kp NUM_6    &kp PLUS     &trans
+    &trans      &kp PRCNT    &kp CARET  &kp LBKT   &kp RBKT   &kp TILDE  &trans      &trans      &kp AMPS   &kp NUM_1  &kp NUM_2  &kp NUM_3    &kp BSLH     &trans
+    &trans      &kp KP_EQUAL &trans      &trans      &trans                                                  &trans      &kp DOT    &kp NUM_0    &kp KP_EQUAL &trans
                                                            &none      &none      &none      &none
                                                                       &none      &none
                                                 &none      &none                            &none      &none
