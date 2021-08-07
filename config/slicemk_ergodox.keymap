@@ -40,7 +40,7 @@
     &trans      &kp KP_EQUAL &trans      &trans      &trans                                                  &trans      &kp DOT    &kp NUM_0    &kp KP_EQUAL &trans
                                                            &none      &none      &none      &none
                                                                       &none      &none
-                                                &none      &none                            &none      &none
+                                                &trans      &trans                            &trans      &trans
                                                                       &none      &none
                         >;
                 };
