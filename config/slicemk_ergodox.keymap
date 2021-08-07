@@ -18,7 +18,7 @@
                 layer_0 {
                         bindings = <
     &bootloader
-    &kp GRAV    &kp NUM_1   &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5 &kp PRSC    &none    &kp NUM_6     &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0      &none
+    &kp EQUAL    &kp NUM_1   &kp NUM_2 &kp NUM_3 &kp NUM_4 &kp NUM_5 &kp PRSC    &none    &kp NUM_6     &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0      &kp MINUS
     &kp DEL     &kp Q       &kp W     &kp F     &kp P     &kp B     &kp CLCK    &none    &kp J         &kp L     &kp U     &kp Y     &kp SEMI       &kp BSLH
     &kp BSLH    &kp A       &kp R     &kp S     &kp T     &kp G                          &kp M         &kp N     &kp E     &kp I     &kp O          &mt LGUI APOS
     &kp LSFT    &mt LCTRL Z &kp X     &kp C     &kp D     &kp V     &none       &none    &kp K         &kp H     &kp CMMA  &kp DOT   &mt RCTRL FSLH &kp RSFT
