@@ -3,7 +3,13 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
-&mt {    tapping-term-ms = <300>;};
+&mt {    
+        // Defines how long a key must be pressed to trigger Hold behavior.
+        tapping-term-ms = <400>;
+        // The 'tap-preferred' flavor triggers the hold behavior when the tapping-term-ms has 
+        // expired. It triggers the tap behavior when another key is pressed.
+        flavor = "tap-preferred";
+};
 
 / {
         keymap {
